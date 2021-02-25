@@ -6,8 +6,8 @@
 #include <SPIFFS.h>
 #include <MD5Builder.h>
 
-const char *ssid = "RTSCAN";               //  your network SSID (name)
-const char *password = "yiliguoliduo.1234"; // your network password (use for WPA, or use as key for WEP)
+const char *ssid = "****";               //  your network SSID (name)
+const char *password = "********"; // your network password (use for WPA, or use as key for WEP)
 
 int httpDownloadFile(const char *url, const char *fileName)
 {
